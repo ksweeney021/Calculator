@@ -2,11 +2,11 @@
     box-sizing: border-box;
   }
 
-.center {
+/*.center {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 .calculator-button-box {
     display: flex;
