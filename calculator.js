@@ -88,12 +88,11 @@ function rerender() {
 }
 
 
-document
-    .querySelector(".calculator-buttons")
-    .addEventListener("click", function(event) {
-        console.log("here");
-    buttonClick(event.target.innerText);
+function init() {
+    document.querySelector(".calculator-buttons").addEventListener("click", function(event) {
+        buttonClick(event.target.innerText);
 });
+}
 
 
 init ();
